@@ -15,6 +15,11 @@
 //         object-fit: cover;
 //       };
 // }
+html,body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 .top_title_container {
     position: relative;
     // ここ方追加スライド予定のコード
@@ -31,6 +36,16 @@
         height: auto;
         opacity: 0;
         animation :slideshow 24s linear infinite;
+        height: 826px;
+        object-fit: cover;
+            @include tab {
+                // height: 580px;
+                object-fit: cover;
+                };
+            @include sp {
+                // height: 460px;
+                object-fit: cover;
+            };
     }
     img:nth-child(2){
     animation-delay: 8s;
@@ -360,14 +375,9 @@
         height: 480px;
         object-fit: cover;
         @include pc {
-            width: 96%;
+            width: 100%;
             height: auto;
             object-fit: cover;
-          };
-        @include tab {
-          };
-          @include sp {
-           
           };
     }
     .adress {
@@ -391,13 +401,23 @@ footer {
         display: flex;
         justify-content: space-between;
         align-items: center;
+        @include tab {
+           
+        };
+        
         p.footer_info {
         display: block;
         color: $article_color;
         font-family: $article_p_font;
+         @include tab {
+                font-size: 12px;
+            };
         // line-height: 100px
         .icon-box {
             display: flex;
+            // @include tab {
+            //     width: 200px;
+            // };
             span {
                 margin: 16px;
             }

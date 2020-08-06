@@ -1,4 +1,11 @@
 @charset "UTF-8";
+html, body {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 .top_title_container {
   position: relative;
   width: 100%;
@@ -19,6 +26,23 @@
   opacity: 0;
   -webkit-animation: slideshow 24s linear infinite;
           animation: slideshow 24s linear infinite;
+  height: 826px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media (max-width: 880px) {
+  .top_title_container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+
+@media (max-width: 480px) {
+  .top_title_container img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
 }
 
 .top_title_container img:nth-child(2) {
@@ -458,7 +482,7 @@
 
 @media (max-width: 1200px) {
   #main .last_contents .mid_img_3 img {
-    width: 96%;
+    width: 100%;
     height: auto;
     -o-object-fit: cover;
        object-fit: cover;
@@ -499,6 +523,12 @@ footer .ft_main p.footer_info {
   display: block;
   color: #9c831a;
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+}
+
+@media (max-width: 880px) {
+  footer .ft_main p.footer_info {
+    font-size: 12px;
+  }
 }
 
 footer .ft_main p.footer_info .icon-box {
