@@ -1,0 +1,58 @@
+// =======================
+// 変数コレクション
+// =======================
+
+// Fonts
+$top_title_font : 'Ultra', serif;
+$top_subtitle_font : 'Nothing You Could Do', cursive;
+$article_p_font : "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
+$tag_font : 'Lato', sans-serif;
+
+
+// Fonts Size
+$article_p_size : 18px;
+
+// Imagesize
+$top_img : 100%;
+$mid_img : 1380px;
+$shop_img : 1100px;
+$article_left_paragraph :50%;
+$article_right_img : 400px;
+$article_right_img_respo : 320px;
+$quarter_img : 450px;
+$one_of_nine_img : 280px;
+
+
+// Contents Size
+$mid_contents_size : 70%;
+
+// Colors
+$top_color : rgb(214, 191, 99);
+$article_color : rgb(156,131,26);
+$tag_bg_color : rgba(137, 206, 174, 0.973);
+$footer-color : rgb(198,216,216);
+
+
+// ==============================
+// レスポンシブ
+// ==============================
+
+$pc: 1200px; // PC
+$tab: 880px; // タブレット
+$sp: 480px;  // スマホ
+
+@mixin pc {
+  @media (max-width: ($pc)) {
+    @content;
+  }
+}
+@mixin tab {
+  @media (max-width: ($tab)) {
+    @content;
+  }
+}
+@mixin sp {
+  @media (max-width: ($sp)) {
+    @content;
+  }
+}
