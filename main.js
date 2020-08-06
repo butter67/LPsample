@@ -35,4 +35,4 @@ function slideImage() {
     setTimeout("slideImage()", 5000);
 }
 
-slideImage();
+// slideImage();
