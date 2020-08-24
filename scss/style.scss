@@ -250,19 +250,11 @@ html,body {
       @include sp {
        
       };
-    div.one_of_quarter {
+    .one_of_quarter,.one_of_quarter2{
         width: 440px;
         margin: 30px;
         @include pc {
             width: 280px;
-           
-          };
-        @include tab {
-            
-            
-          };
-          @include sp {
-           
           };
         img {
             width: $quarter_img;

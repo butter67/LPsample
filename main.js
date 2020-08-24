@@ -36,3 +36,40 @@ function slideImage() {
 }
 
 // slideImage();
+//=====================
+// 動きのコード▼
+//=====================
+
+ScrollReveal().reveal('.mid_contents', {
+    delay: 400,
+    duration: 1000,
+    distance: '60px',
+    origin: 'bottom',
+});  //コンセプトをふわっと
+
+ScrollReveal().reveal('.one_of_quarter', { 
+    delay: 400,
+    duration: 1000,
+    distance: '100px',
+    origin: 'bottom',
+  }); //4枚写真の動き
+ScrollReveal().reveal('.one_of_quarter2', { 
+    delay: 500,
+    duration: 1000,
+    distance: '100px',
+    origin: 'bottom',
+  }); //4枚写真の動きのうちの時差ぶん
+
+ScrollReveal().reveal('.one_of_nine', { 
+    delay: 400,
+    duration: 1000,
+    distance: '100px',
+    origin: 'bottom',
+  }); //9枚写真の小さい方
+
+ScrollReveal().reveal('.last_contents', {
+    delay: 400,
+    duration: 800,
+    distance: '60px',
+    origin: 'bottom',
+});

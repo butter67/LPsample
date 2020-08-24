@@ -335,33 +335,33 @@ html, body {
   }
 }
 
-#main .items_container div.one_of_quarter {
+#main .items_container .one_of_quarter, #main .items_container .one_of_quarter2 {
   width: 440px;
   margin: 30px;
 }
 
 @media (max-width: 1200px) {
-  #main .items_container div.one_of_quarter {
+  #main .items_container .one_of_quarter, #main .items_container .one_of_quarter2 {
     width: 280px;
   }
 }
 
-#main .items_container div.one_of_quarter img {
+#main .items_container .one_of_quarter img, #main .items_container .one_of_quarter2 img {
   width: 450px;
 }
 
 @media (max-width: 1200px) {
-  #main .items_container div.one_of_quarter img {
+  #main .items_container .one_of_quarter img, #main .items_container .one_of_quarter2 img {
     width: 280px;
   }
 }
 
-#main .items_container div.one_of_quarter h2 {
+#main .items_container .one_of_quarter h2, #main .items_container .one_of_quarter2 h2 {
   color: #9c831a;
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
 }
 
-#main .items_container div.one_of_quarter h3 {
+#main .items_container .one_of_quarter h3, #main .items_container .one_of_quarter2 h3 {
   display: inline-block;
   color: rgba(137, 206, 174, 0.973);
   padding: 3px 10px;
@@ -370,18 +370,18 @@ html, body {
   margin-bottom: 5px;
 }
 
-#main .items_container div.one_of_quarter hr {
+#main .items_container .one_of_quarter hr, #main .items_container .one_of_quarter2 hr {
   border-color: #9c831a;
 }
 
-#main .items_container div.one_of_quarter p {
+#main .items_container .one_of_quarter p, #main .items_container .one_of_quarter2 p {
   color: #9c831a;
   font-family: "Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体", "ヒラギノ角ゴ Pro W3", "メイリオ", sans-serif;
   margin-top: 8px;
   font-size: 16px;
 }
 
-#main .items_container div.one_of_quarter .price {
+#main .items_container .one_of_quarter .price, #main .items_container .one_of_quarter2 .price {
   font-size: 16px;
   margin-top: 0;
   margin-top: 10px;
